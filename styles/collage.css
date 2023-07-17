@@ -28,6 +28,24 @@ img{
     background-color: bisque;
     margin: 0 150px 7px 150px;
 }
+/*Small Device*/
+@media screen and (max-width: 576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .square-box{
+        grid-template-columns: 1fr;
+    }
+}
+/*Medium Device*/
+ @media  and(min-width: 576px) and (max-width: 992px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    
+ } 
 
 
 
